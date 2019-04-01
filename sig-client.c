@@ -1,7 +1,7 @@
 #define _XOPEN_SOURCE 500
 #include <stdio.h>
 #include <signal.h>
-#include <getopt.h>
+#include <unistd.h>
 #include <sys/types.h>
 
 void printUsage(char *arg);

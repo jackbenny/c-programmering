@@ -60,7 +60,7 @@ int main(void)
 
 void cleanUp(int signum)
 {
-    /* Ständ fildeskriptorn */
+    /* Stäng fildeskriptorn */
     if ( close(fifofd) == -1 )
         perror("cleanUp - close");
 
